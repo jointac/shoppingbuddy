@@ -1,0 +1,11 @@
+/*.overall { height:100vh; }*/
+.overall {height:100vh;}
+.splashcontainer, .shopping-container { width:100%; height:100%; }
+.welcome-header { margin:0 auto; width: 90%; text-align:center; padding-top:50px; }
+.shop-header { height:80px; width:100%; background-color:blue; color:#fff; }
+.app-title, .app-time {width:25%;float:left;}
+.app-time{text-align:right;}
+.app-logo {width:50%;float:left;}
+.shoppingdetail-container { width:80%;margin:0 auto;text-align:center;}
+.shopping-container .div {width:20%;float:left;text-align:center;height:200px;}
+.inner-container {height:90%; margin:auto;}
