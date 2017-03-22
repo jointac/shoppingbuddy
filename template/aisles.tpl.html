@@ -1,0 +1,17 @@
+<div class="shopping-container" ng-controller="aisleCtrl as aisle">
+	<div class="shopping-header" ng-include="'template/header.tpl.html'">
+	</div>
+	<div class="promoitem-container" ng-style="{height:windowheight}">
+		<div class="aisle-header"><div class="goback"><img src="/img/house2.png" class="imggoback" ng-click="goback()"></div>
+			<div class="aisleheader">AISLES</div><div class="rightcol"></div></div>
+		<div class="promoitem-details" ng-style="{height:detailheight}">
+			<div ng-repeat="item in aisleitems" class="item-container">
+				<div class="itemimg-container">
+					<div class="aislecat">{{item.cat}}</div>
+					<div class="imgdiv"><img src={{item.itemimg}} class="promoimg"></div>
+					<div class="aisledesc">{{item.description}}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

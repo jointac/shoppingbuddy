@@ -1,11 +1,49 @@
-/*.overall { height:100vh; }*/
-.overall {height:100vh;}
-.splashcontainer, .shopping-container { width:100%; height:100%; }
+body {font-size:20px;}
+.overall { height:100vh; }
+/**general**/
+.header-font { font-size:55px;font-weight:bold; }
+.btn-class {padding:10px;background-color:#fff;width:auto;color:blue;font-size:30px;}
+.btn-class:hover {text-decoration:none;color:blue;cursor:pointer;}
+.input-text {margin:30px 10px 10px;}
+.input-style { height:50px;font-size:30px;padding:10px; }
+.input-style:focus{outline:0;}
+/**container**/
+.splashcontainer, .shopping-container { width:100%; height:100vh; }
+.overlay {height:inherit;background-color:rgba(255,255,255,0.5);}
+/**splash page**/
+.splashcontainer, .shoppingdetail-container { background-image: url("/img/aisle.jpg");background-size:cover;background-size:100% 100%;background-position:center;}
 .welcome-header { margin:0 auto; width: 90%; text-align:center; padding-top:50px; }
+/**shopping-details**/
+.shoppingdetail-container { width:100%;margin:0 auto;text-align:center; height:100%;}
 .shop-header { height:80px; width:100%; background-color:blue; color:#fff; }
-.app-title, .app-time {width:25%;float:left;}
+.welcome-button {margin:20px;}
+.errormsg {color:red;font-weight: bold;}
+.app-title, .app-time {padding:10px;width:25%;float:left;}
 .app-time{text-align:right;}
 .app-logo {width:50%;float:left;}
-.shoppingdetail-container { width:80%;margin:0 auto;text-align:center;}
-.shopping-container .div {width:20%;float:left;text-align:center;height:200px;}
-.inner-container {height:90%; margin:auto;}
+/*shoppinglinks**/
+.shoppinglink-container .div {width:20%;float:left;text-align:center;height:inherit;background-size:cover;background-position:center;}
+.whats-new {background-image:url("/img/whatsnew.jpg");}
+.aisles {background-image:url("/img/aisle-2.jpg");}
+.start-shopping {background-image:url("/img/start.jpg");}
+.promo-items {background-image:url("/img/promo.jpg");}
+.shopper {background-image:url("/img/shopper.jpg");}
+.inner-container {padding:200px 10px 0px;font-size:30px;font-weight:bold;cursor:pointer;border-right:grey 1px solid;}
+/**PROMO ITEMS**/
+.promoitem-header {height:100px;text-align:center;background-color:blue;color:#fff;font-size:45px;font-weight:bold;}
+.promoitem-description {font-size:22px;}
+.promoitem-details {padding:15px;background-color:lightgrey;}
+.promoitem {margin:20px;background-color:#fff;}
+.promoitem-add {height:100px;background-image:url("/img/promoitem-ad.jpg");background-size:cover;background-position:top;}
+.item-container { width:20%;float:left;padding:10px;}
+.promoimg {max-width:65px;max-height:65px;height:auto;width:auto;}
+.itemimg-container {background-color:#fff;height:160px;padding:5px 10px;font-size:12px;text-align:center;}
+.itemdiscount {background-color:pink;height:56px;padding:5px 10px; font-size:16px; text-align:center;}
+.imgdiv {text-align:center;margin-top:15px;}
+.imgamt {font-size:16px;margin-top:5px;}
+/**AISLE**/
+.aisle-header {height:70px;text-align:center;background-color:blue;color:#fff;font-size:45px;font-weight:bold;}
+.aislecat {font-size:16px; font-weight:bold;} .aisledesc{font-size:10px;margin-top:10px;}
+.goback, .rightcol {width:20%;float:left;}
+.aisleheader {width:60%;float:left;}
+.imggoback {cursor:pointer;max-height:50px;max-width:50px;width:auto;height:auto;}

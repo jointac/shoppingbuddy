@@ -1,12 +1,11 @@
-
 <div class="shopping-container" ng-controller="shoppingdetailsCtrl as shopdetails">
-	<div class="shopping-container" ng-include="'template/header.tpl.html'">
+	<div class="shopping-header" ng-include="'template/header.tpl.html'">
 	</div>
-	<div class="shopping-container">
-		<div class="div whats-new"><div class="inner-container">WHAT'S NEW</div></div>
-		<div class="div aisles"><div class="inner-container">AISLES</div></div>
-		<div class="div start-shopping"><div class="inner-container">START SHOPPING</div></div>
-		<div class="div promo-items"><div class="inner-container">PROMO ITEMS</div></div>
-		<div class="div shopper"><div class="inner-container">SHOPPER</div></div>
+	<div class="shoppinglink-container" ng-style="{height:windowheight}">
+		<div class="div whats-new"><div class="inner-container overlay" ng-click="goto(1)">WHAT'S NEW</div></div>
+		<div class="div aisles"><div class="inner-container overlay" ng-click="goto(2)">AISLES</div></div>
+		<div class="div start-shopping"><div class="inner-container overlay" ng-click="goto(3)">START SHOPPING</div></div>
+		<div class="div promo-items"><div class="inner-container overlay" ng-click="goto(4)">PROMO ITEMS</div></div>
+		<div class="div shopper"><div class="inner-container overlay" ng-click="goto(5)">SHOPPER</div></div>
 	</div>
 </div>

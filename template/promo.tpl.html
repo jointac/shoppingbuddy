@@ -1,0 +1,22 @@
+<div class="shopping-container" ng-controller="promoCtrl as promo">
+	<div class="shopping-header" ng-include="'template/header.tpl.html'">
+	</div>
+	<div class="promoitem-container" ng-style="{height:windowheight}">
+		<div class="promoitem-header">PROMOTIONAL ITEMS!
+			<div class="promoitem-description">CHECK IT OUT UNTIL SUPPLIES LAST!</div>
+		</div>
+		<div class="promoitem-details" ng-style="{height:detailheight}">
+			<div ng-repeat="item in items" class="item-container">
+				<div class="itemimg-container">
+					{{item.itemdesc}}
+					<div class="imgdiv"><img src={{item.itemimg}} class="promoimg"></div>
+					<div class="imgamt">{{item.itemamt}}</div>
+				</div>
+				<div class="itemdiscount">
+				{{item.promodetail}}
+				</div>
+			</div>
+		</div>
+		<div class="promoitem-add"></div>
+	</div>
+</div>
