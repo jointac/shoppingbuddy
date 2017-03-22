@@ -30,7 +30,7 @@ app
 	.controller('shoppinglinksCtrl', function($scope, $window, $state){
 		var newDate = new Date();
 		this.timenow = newDate;
-		$scope.windowheight = ($(window).height() - 80).toString() + "px";
+		$scope.windowheight = ($(window).height() - 50).toString() + "px";
 		/*var $item = {'category':'fruits','item':'banana','qty':2};
 		$window.$globalcart.push($item);*/
 		$scope.goto = function(link) {
@@ -47,13 +47,13 @@ app
 		}
 	})
 	.controller('promoCtrl', function($scope, $window, $state, promoitems){
-		$scope.windowheight = ($(window).height() - 80).toString() + "px";
-		$scope.detailheight = (($(window).height() - 80) - 100 - 100).toString() + "px";
+		$scope.windowheight = ($(window).height() - 50).toString() + "px";
+		$scope.detailheight = (($(window).height() - 50) - 100 - 100).toString() + "px";
 		$scope.items = promoitems;
 	})
 	.controller('aisleCtrl', function($scope, $window, $state, aisle){
-		$scope.windowheight = ($(window).height() - 80).toString() + "px";
-		$scope.detailheight = (($(window).height() - 80) - 70).toString() + "px";
+		$scope.windowheight = ($(window).height() - 50).toString() + "px";
+		$scope.detailheight = (($(window).height() - 50) - 70).toString() + "px";
 		$scope.aisleitems = aisle;
 		$scope.goback = function(){
 			$state.go('shoppinglinks');

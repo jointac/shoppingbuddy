@@ -2,8 +2,8 @@ body {font-size:20px;}
 .overall { height:100vh; }
 /**general**/
 .header-font { font-size:55px;font-weight:bold; }
-.btn-class {padding:10px;background-color:#fff;width:auto;color:blue;font-size:30px;}
-.btn-class:hover {text-decoration:none;color:blue;cursor:pointer;}
+.btn-class {padding:10px;background-color:#fff;width:auto;color:#243E8A;font-size:30px;}
+.btn-class:hover {text-decoration:none;color:#243E8A;cursor:pointer;}
 .input-text {margin:30px 10px 10px;}
 .input-style { height:50px;font-size:30px;padding:10px; }
 .input-style:focus{outline:0;}
@@ -15,7 +15,7 @@ body {font-size:20px;}
 .welcome-header { margin:0 auto; width: 90%; text-align:center; padding-top:50px; }
 /**shopping-details**/
 .shoppingdetail-container { width:100%;margin:0 auto;text-align:center; height:100%;}
-.shop-header { height:80px; width:100%; background-color:blue; color:#fff; }
+.shop-header { height:50px; width:100%; background-color:#243E8A; color:#fff; font-size:12px;}
 .welcome-button {margin:20px;}
 .errormsg {color:red;font-weight: bold;}
 .app-title, .app-time {padding:10px;width:25%;float:left;}
@@ -30,7 +30,7 @@ body {font-size:20px;}
 .shopper {background-image:url("/img/shopper.jpg");}
 .inner-container {padding:200px 10px 0px;font-size:30px;font-weight:bold;cursor:pointer;border-right:grey 1px solid;}
 /**PROMO ITEMS**/
-.promoitem-header {height:100px;text-align:center;background-color:blue;color:#fff;font-size:45px;font-weight:bold;}
+.promoitem-header {height:100px;text-align:center;background-color:#243E8A;color:#fff;font-size:45px;font-weight:bold;}
 .promoitem-description {font-size:22px;}
 .promoitem-details {padding:15px;background-color:lightgrey;}
 .promoitem {margin:20px;background-color:#fff;}
@@ -42,7 +42,7 @@ body {font-size:20px;}
 .imgdiv {text-align:center;margin-top:15px;}
 .imgamt {font-size:16px;margin-top:5px;}
 /**AISLE**/
-.aisle-header {height:70px;text-align:center;background-color:blue;color:#fff;font-size:45px;font-weight:bold;}
+.aisle-header {height:70px;text-align:center;background-color:#243E8A;color:#fff;font-size:45px;font-weight:bold;}
 .aislecat {font-size:16px; font-weight:bold;} .aisledesc{font-size:10px;margin-top:10px;}
 .goback, .rightcol {width:20%;float:left;}
 .aisleheader {width:60%;float:left;}
